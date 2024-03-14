@@ -1,0 +1,19 @@
+---
+title: "About"
+image: posts/profile.png
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/hitchhiker3010
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/sukesh-perla/
+    - icon: github
+      text: Github
+      href: https://github.com/hitchhiker3010
+
+---
+
+About this blog

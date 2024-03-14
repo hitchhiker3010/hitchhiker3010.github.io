@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Sukesh Perla"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/hitchhiker3010
+      - icon: twitter
+        href: https://twitter.com/hitchhiker3010
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sukesh-perla/
+  search: false
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+
+
+
