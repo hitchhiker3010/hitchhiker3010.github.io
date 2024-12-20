@@ -4,14 +4,16 @@ project:
 website:
   title: "Sukesh Perla"
   navbar:
-    right:
+    left:
       - about.qmd
+    right:
       - icon: github
         href: https://github.com/hitchhiker3010
       - icon: twitter
         href: https://twitter.com/hitchhiker3010
       - icon: linkedin
         href: https://www.linkedin.com/in/sukesh-perla/
+  google-analytics: "G-6Y1QVETG5N"
   search: false
 format:
   html:
