@@ -1,47 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/tokenizer_video_code_along.html",
-    "href": "posts/tokenizer_video_code_along.html",
-    "title": "Sukesh Perla",
-    "section": "",
-    "text": "input_str = \"హలో నా పేరు సుకేష్\"\n\n\nlen(input_str)\n\n18\n\n\n\n# Unicode Chars\nlen([ord(i) for i in input_str])\n\n18\n\n\n\n# UTF-8 encoded length \nlen(list(input_str.encode(\"utf-8\")))\n\n48\n\n\n\n[print(i,len(list(i.encode(\"utf-8\")))) for i in input_str]\n\nహ 3\nల 3\nో 3\n  1\nన 3\nా 3\n  1\nప 3\nే 3\nర 3\nు 3\n  1\nస 3\nు 3\nక 3\nే 3\nష 3\n్ 3\n\n\n[None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None,\n None]"
-  },
-  {
-    "objectID": "posts/2024-03-20-Tokenization.html",
-    "href": "posts/2024-03-20-Tokenization.html",
-    "title": "Tokenization",
-    "section": "",
-    "text": "---\ntitle: \"Building Chrome Extension with Zero Web-Dev Knowledge!\"\ndate: \"12/18/2024\"\ndraft: true\n---\nWhy do we need Tokenization?\nFurther Reading - MegaByte paper"
-  },
-  {
-    "objectID": "posts/2024-03-20-Tokenization.html#ideas",
-    "href": "posts/2024-03-20-Tokenization.html#ideas",
-    "title": "Tokenization",
-    "section": "Ideas",
-    "text": "Ideas\n\nTikTokenizer for Open LLMs (Ref: https://tiktokenizer.vercel.app)\nCheck arithmatic and code generation performances of differnt Open LLMs and see if there’s correlation with the tokenizers efficiency of them (Ref : 8:00 timestamp in Andrej’s video)"
-  },
-  {
-    "objectID": "posts/2024-06-05-PEFT.html",
-    "href": "posts/2024-06-05-PEFT.html",
-    "title": "Optimizations",
-    "section": "",
-    "text": "---\ntitle: \"Building Chrome Extension with Zero Web-Dev Knowledge!\"\ndate: \"12/18/2024\"\ndraft: true\n---\nTraining - PEFT - Knowledge Distillation\nInference - Quantization - Pruning - Architecture Search - LLM Routing"
-  },
-  {
-    "objectID": "posts/2024-06-05-PEFT.html#parameter-efficient-fine-tuning-peft",
-    "href": "posts/2024-06-05-PEFT.html#parameter-efficient-fine-tuning-peft",
-    "title": "Optimizations",
-    "section": "Parameter Efficient Fine Tuning (PEFT)",
-    "text": "Parameter Efficient Fine Tuning (PEFT)\n\nPEFT is a method to adapt a pre-trained language model (LLM) to a specific task or domain using a small number of (extra) parameters.\nIt is a type of fine-tuning that is more efficient in terms of both time and resources compared to full-parameter fine-tuning while achieving similar or better performance.\n\nExamples of PEFT methods: - Adapter Layers: Adapter Layers are small modules that are added to the pre-trained LLM. They are used to modify the model’s output for a specific task. - LoRA and Friends: LoRA is a method that uses a small matrix to modify the weights of a pre-trained LLM. This allows for efficient fine-tuning with a small number of parameters."
-  },
-  {
     "objectID": "posts/2024-12-18-Building Chrome Extension with Zero Web-Dev Experience.html",
     "href": "posts/2024-12-18-Building Chrome Extension with Zero Web-Dev Experience.html",
     "title": "Building Chrome Extension with Zero Web-Dev Knowledge!",
@@ -60,6 +18,6 @@
     "href": "index.html",
     "title": "Sukesh Perla",
     "section": "",
-    "text": "Optimizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTokenization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Chrome Extension with Zero Web-Dev Knowledge!\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello World!\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Building Chrome Extension with Zero Web-Dev Knowledge!\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHello World!\n\n\n\n\n\n\n\n\n\n\n\nMar 15, 2024\n\n\n\n\n\n\nNo matching items"
   }
 ]

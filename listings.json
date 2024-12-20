@@ -2,9 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/2024-06-05-PEFT.html",
-      "/posts/2024-03-20-Tokenization.html",
-      "/posts/tokenizer_video_code_along.html",
       "/posts/2024-12-18-Building Chrome Extension with Zero Web-Dev Experience.html",
       "/posts/2024-03-15-hello_world.html"
     ]
